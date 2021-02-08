@@ -2,37 +2,37 @@
 int main()
 {
     int a,b,c,sum;
-    char g;
+    char g[3];
     scanf("%d %d %d",&a,&b,&c);
     sum=a+b+c;
     if(sum>=80)
-        g='A';
+        printf("A");
     else
     {
         if(sum>=75)
-            g='B+';
+            printf("B+");
         else
         {
             if(sum>=70)
-                g='B';
+                printf("B");
             else
             {
                 if(sum>=65)
-                    g='C+';
+                    printf("C+");
                 else
                 {
                     if(sum>=60)
-                        g='C';
+                        printf("C");
                     else
                     {
                         if(sum>=55)
-                            g='D+';
+                            printf("D+");
                         else
                         {
                             if(sum>=50)
-                                g='D';
+                                printf("D");
                             else
-                                g='F';
+                                printf("F");
                         }
 
                     }
@@ -44,5 +44,4 @@ int main()
         }
 
     }
-    printf("%c",g);
 }
