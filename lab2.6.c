@@ -2,7 +2,7 @@
 int main()
 {
     long long a,b;
-    scanf("%d",&a);
+    scanf("%lld",&a);
     b = a;
     if(a == 0)
         printf("Zero");
